@@ -1,0 +1,45 @@
+*{ /*Configurações padrão do navegador*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.card{
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 9px 9px 27px 0px black;
+    -webkit-box-shadow: 9px 9px 27px 0px black;
+    -moz-box-shadow: 9px 9px 27px 0px black;
+    justify-content: space-between;
+}
+
+/* .card-left, .card-right{
+    border: 1px solid blue;
+} */
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.card-left > span{
+    font-weight: 400;
+}
+
+.card-left > a{
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-left > p{
+    color: gray;
+
+}
